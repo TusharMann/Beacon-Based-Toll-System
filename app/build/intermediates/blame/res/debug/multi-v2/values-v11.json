@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\34788d4298e8fdd88c267aef13a38925\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "16,22,28,34,40,46,52,53,57,61,62,66,70,71,75,80,85,90,92,94,95,96,150,205",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "612,1031,1456,1884,2310,2737,3162,3251,3497,3746,3847,4099,4354,4457,4710,5118,5538,5960,6067,6196,6267,6350,10313,14419",
+                        "endLines": "21,27,33,39,45,51,52,56,60,61,65,69,70,74,79,84,89,91,93,94,95,149,204,205",
+                        "endColumns": "12,12,12,12,12,12,88,12,12,100,12,12,102,12,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "1026,1451,1879,2305,2732,3157,3246,3492,3741,3842,4094,4349,4452,4705,5113,5533,5955,6062,6191,6262,6345,10308,14414,14505"
+                    }
+                },
+                {
+                    "source": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\src\\main\\res\\values-v11\\colors.xml",
+                    "from": {
+                        "startLines": "10,12,4,2,3,8,11,6,5,7,9",
+                        "startColumns": "4,4,4,4,4,4,3,4,4,4,4",
+                        "startOffsets": "415,496,157,57,105,332,455,249,204,291,373",
+                        "endColumns": "39,38,45,46,50,39,38,40,43,39,40",
+                        "endOffsets": "450,530,198,99,151,367,490,285,243,326,409"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,134,180,227,278,318,358,399,443,483",
+                        "endColumns": "39,38,45,46,50,39,39,40,43,39,40",
+                        "endOffsets": "90,129,175,222,273,313,353,394,438,478,519"
+                    }
+                },
+                {
+                    "source": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "524",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "607"
+                    }
+                }
+            ]
+        }
+    ]
+}
