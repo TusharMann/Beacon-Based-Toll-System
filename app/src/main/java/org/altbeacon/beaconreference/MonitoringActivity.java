@@ -3,12 +3,15 @@ package org.altbeacon.beaconreference;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -26,6 +29,9 @@ import org.altbeacon.beacon.BeaconManager;
 public class MonitoringActivity extends AppCompatActivity {
 	protected static final String TAG = "MonitoringActivity";
 	private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
+	private static final int PERMISSIONS_REQUEST_CODE = 100;
+	private static String[] mPermissions = { Manifest.permission.ACCESS_FINE_LOCATION};
+
 
 	SharedPreferences sharedPreferences;
 	EditText phnumber,numplate;
@@ -36,10 +42,21 @@ public class MonitoringActivity extends AppCompatActivity {
 		Log.d(TAG, "onCreate");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_monitoring);
-		verifyBluetooth();
+		//verifyBluetooth();
         logToDisplay("Application just launched");
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+		if (!havePermissions()) {
+			Log.i(TAG, "Requesting permissions needed for this app.");
+			requestPermissions();
+		}
+
+		if(!isBlueEnable()){
+			Intent bluetoothIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+			startActivity(bluetoothIntent);
+		}
+
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             // Android M Permission check
             if (this.checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -94,6 +111,30 @@ public class MonitoringActivity extends AppCompatActivity {
 		});
 
 	}
+
+	private boolean isBlueEnable() {
+		BluetoothManager bluetoothManager = (BluetoothManager) getSystemService(BLUETOOTH_SERVICE);
+		BluetoothAdapter bluetoothAdapter = bluetoothManager.getAdapter();
+		return bluetoothAdapter.isEnabled();
+
+	}
+
+	private boolean havePermissions() {
+		for(String permission:mPermissions){
+			if(ActivityCompat.checkSelfPermission(this,permission)!= PackageManager.PERMISSION_GRANTED){
+				return  false;
+			}
+		}
+		return true;
+	}
+
+	private void requestPermissions() {
+		ActivityCompat.requestPermissions(this,
+				mPermissions, PERMISSIONS_REQUEST_CODE);
+	}
+
+
+
 
 	@Override
 	public void onRequestPermissionsResult(int requestCode,
