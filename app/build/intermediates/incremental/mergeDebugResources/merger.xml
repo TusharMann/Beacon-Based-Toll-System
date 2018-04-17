@@ -1694,11 +1694,11 @@
         <item name="colorPrimaryDark">@color/marked</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-    </style></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+    </style></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v11\colors.xml" qualifiers="v11"><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="moviename">#0097A7</color><color name="marked">#4DB6AC</color><color name="white">#ffffff</color><color name="green">#80CBC4</color><color name="yellow">#FFFDE7</color><color name="black">#000000</color><color name="grey"> #9E9E9E</color><color name="blue">#26A69A</color></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
         
     </style></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         
-    </style></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v11\colors.xml" qualifiers="v11"><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color><color name="moviename">#0097A7</color><color name="marked">#4DB6AC</color><color name="white">#ffffff</color><color name="green">#80CBC4</color><color name="yellow">#FFFDE7</color><color name="black">#000000</color><color name="grey"> #9E9E9E</color><color name="blue">#26A69A</color></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v23\styles.xml" qualifiers="v23"><style name="AppTheme" parent="Theme.AppCompat.Light">
+    </style></file><file path="G:\Notes\Automatic Toll System\Beacons\app\src\main\res\values-v23\styles.xml" qualifiers="v23"><style name="AppTheme" parent="Theme.AppCompat.Light">
         
         <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryDark">@color/marked</item>
