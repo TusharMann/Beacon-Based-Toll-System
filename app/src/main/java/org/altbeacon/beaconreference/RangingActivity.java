@@ -1,23 +1,19 @@
 package org.altbeacon.beaconreference;
 
-import java.util.Collection;
-
-import android.app.Activity;
-
 import android.os.Bundle;
 import android.os.RemoteException;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 
-import org.altbeacon.beacon.AltBeacon;
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
 import org.altbeacon.beacon.BeaconManager;
-import org.altbeacon.beacon.BeaconParser;
 import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
 
-public class RangingActivity extends Activity implements BeaconConsumer {
+import java.util.Collection;
+
+public class RangingActivity extends AppCompatActivity implements BeaconConsumer {
     protected static final String TAG = "RangingActivity";
     private BeaconManager beaconManager = BeaconManager.getInstanceForApplication(this);
 

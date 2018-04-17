@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/marked</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:titleTextColor">@color/white</item>
+
+    </style>
+</resources>
