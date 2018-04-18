@@ -71,24 +71,24 @@ public final class R {
         public static final int actions = 0x7f070018;
         public static final int async = 0x7f07001d;
         public static final int blocking = 0x7f07001f;
-        public static final int chronometer = 0x7f070024;
-        public static final int forever = 0x7f070032;
-        public static final int icon = 0x7f070035;
-        public static final int icon_group = 0x7f070036;
-        public static final int info = 0x7f070039;
-        public static final int italic = 0x7f07003a;
-        public static final int line1 = 0x7f07003b;
-        public static final int line3 = 0x7f07003c;
-        public static final int normal = 0x7f070045;
-        public static final int notification_background = 0x7f070046;
-        public static final int notification_main_column = 0x7f070047;
-        public static final int notification_main_column_container = 0x7f070048;
-        public static final int right_icon = 0x7f070050;
-        public static final int right_side = 0x7f070051;
-        public static final int text = 0x7f07006e;
-        public static final int text2 = 0x7f07006f;
-        public static final int time = 0x7f070072;
-        public static final int title = 0x7f070073;
+        public static final int chronometer = 0x7f070025;
+        public static final int forever = 0x7f070033;
+        public static final int icon = 0x7f070036;
+        public static final int icon_group = 0x7f070037;
+        public static final int info = 0x7f07003a;
+        public static final int italic = 0x7f07003b;
+        public static final int line1 = 0x7f07003c;
+        public static final int line3 = 0x7f07003d;
+        public static final int normal = 0x7f070046;
+        public static final int notification_background = 0x7f070047;
+        public static final int notification_main_column = 0x7f070048;
+        public static final int notification_main_column_container = 0x7f070049;
+        public static final int right_icon = 0x7f070051;
+        public static final int right_side = 0x7f070052;
+        public static final int text = 0x7f07006f;
+        public static final int text2 = 0x7f070070;
+        public static final int time = 0x7f070073;
+        public static final int title = 0x7f070074;
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f080005;
@@ -102,16 +102,16 @@ public final class R {
         public static final int notification_template_part_time = 0x7f09002b;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0a002a;
+        public static final int status_bar_notification_info_overflow = 0x7f0b002a;
     }
     public static final class style {
-        public static final int TextAppearance_Compat_Notification = 0x7f0b00fb;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f0b00fc;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0b00fe;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f0b0101;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f0b0103;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f0b016c;
-        public static final int Widget_Compat_NotificationActionText = 0x7f0b016d;
+        public static final int TextAppearance_Compat_Notification = 0x7f0c00fb;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f0c00fc;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0c00fe;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f0c0101;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f0c0103;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0c016c;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0c016d;
     }
     public static final class styleable {
         public static final int[] FontFamily = { 0x7f020071, 0x7f020072, 0x7f020073, 0x7f020074, 0x7f020075, 0x7f020076 };

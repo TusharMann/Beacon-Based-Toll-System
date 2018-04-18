@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,7 +36,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 
 	SharedPreferences sharedPreferences;
-	EditText phnumber,numplate;
+	EditText phnumber,aadhar;
 
 
 	@Override
@@ -78,7 +80,7 @@ public class MonitoringActivity extends AppCompatActivity {
         }
 
 		phnumber=(EditText)findViewById(R.id.phnumber);
-		numplate=(EditText)findViewById(R.id.numplate);
+		aadhar=(EditText)findViewById(R.id.aadhar);
 
 		Button update,drive;
 		update=(Button)findViewById(R.id.update);
@@ -86,16 +88,16 @@ public class MonitoringActivity extends AppCompatActivity {
 
 		sharedPreferences=getSharedPreferences("Details",MODE_PRIVATE);
 		String phone=sharedPreferences.getString("phone","NULL");
-		String plate=sharedPreferences.getString("plate","NULL");
+		String aadhar1=sharedPreferences.getString("plate","NULL");
 
 
-		if(phone.equals("NULL") || plate.equals("NULL")) {
+		if(phone.equals("NULL") || aadhar1.equals("NULL")) {
 
 		}
 		else
 		{
 			phnumber.setText(phone);
-			numplate.setText(plate);
+			aadhar.setText(aadhar1);
 		}
 
 		update.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +105,7 @@ public class MonitoringActivity extends AppCompatActivity {
 			public void onClick(View view) {
 				SharedPreferences.Editor editor = sharedPreferences.edit();
 				editor.putString("phone", phnumber.getText().toString());
-				editor.putString("plate", numplate.getText().toString());
+				editor.putString("plate", aadhar.getText().toString());
 				editor.commit();
 
 				Toast.makeText(getApplicationContext(),"Details Updated",Toast.LENGTH_LONG).show();
@@ -224,5 +226,30 @@ public class MonitoringActivity extends AppCompatActivity {
     	    }
     	});
     }
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.menu, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+
+		//noinspection SimplifiableIfStatement
+		if (id == R.id.choose) {
+
+
+		}
+
+
+		return super.onOptionsItemSelected(item);
+	}
+
 
 }
