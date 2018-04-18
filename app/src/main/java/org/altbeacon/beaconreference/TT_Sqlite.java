@@ -11,7 +11,7 @@ public class TT_Sqlite extends SQLiteOpenHelper {
 
     public final static String DATABASE_NAME = "Number_Plate_Database";
     public final static String Tname = "NUMDETAILS";
-    public final static String cid = "ID";
+    public final static String rc = "RC";
     public final static String pnum = "NUMBER_PLATE";
 
 
@@ -26,7 +26,7 @@ public class TT_Sqlite extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        String query="CREATE TABLE "+Tname+"("+cid +" VARCHAR(50),"+pnum+" VARCHAR(50));";
+        String query="CREATE TABLE "+Tname+"("+pnum +" VARCHAR(50),"+rc+" VARCHAR(50));";
         db.execSQL(query);
 
 

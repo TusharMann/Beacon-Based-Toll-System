@@ -6,10 +6,13 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
+import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
@@ -19,8 +22,10 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import org.altbeacon.beacon.BeaconManager;
@@ -39,14 +44,18 @@ public class MonitoringActivity extends AppCompatActivity {
 
 	SharedPreferences sharedPreferences;
 	EditText phnumber,aadhar;
-	Button imageView;
+	ImageView imageView;
 
+	TT_Sqlite sqlite;
+	SQLiteDatabase db;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.d(TAG, "onCreate");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_monitoring);
+		sqlite=new TT_Sqlite(this,1);
+		db=sqlite.getWritableDatabase();
 		//verifyBluetooth();
         logToDisplay("Application just launched");
 
@@ -84,7 +93,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 		phnumber=(EditText)findViewById(R.id.phnumber);
 		aadhar=(EditText)findViewById(R.id.aadhar);
-		imageView=(Button) findViewById(R.id.add) ;
+		imageView=(ImageView) findViewById(R.id.add) ;
 
 		Button update,drive;
 		update=(Button)findViewById(R.id.update);
@@ -122,19 +131,6 @@ public class MonitoringActivity extends AppCompatActivity {
 
 				Dialog dialog=onCreateDialogInput();
 				dialog.show();
-
-//				AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(getApplication());
-//				LayoutInflater inflater ;
-//				View dialogView = LayoutInflater.from(getApplication()).inflate(R.layout.dialogview, null);
-//				//dialogBuilder.setView(dialogView);
-//
-//				EditText numplate = (EditText) dialogView.findViewById(R.id.numplate);
-//				EditText rc = (EditText) dialogView.findViewById(R.id.rc);
-//				numplate.setText("test label");
-//				AlertDialog alertDialog = dialogBuilder.create();
-//				alertDialog.show();
-//				alertDialog.getWindow().setLayout(800,1400);
-//				alertDialog.getWindow().setContentView(dialogView);
 			}
 		});
 	}
@@ -154,8 +150,17 @@ public class MonitoringActivity extends AppCompatActivity {
 		builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
+				String num=numplate.getText().toString();
+				String reg=rc.getText().toString();
+
+				ContentValues cv=new ContentValues();
+				cv.put(TT_Sqlite.pnum,num);
+				cv.put(TT_Sqlite.rc,reg);
+				db.insert(TT_Sqlite.Tname,null,cv);
+
 				dialog.dismiss();
-				Toast.makeText(getApplicationContext(),"Added successfully",Toast.LENGTH_LONG).show();
+
+				Toast.makeText(getApplicationContext(),"Vehilce Added successfully",Toast.LENGTH_LONG).show();
 			}
 		});
 		builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
@@ -299,9 +304,34 @@ public class MonitoringActivity extends AppCompatActivity {
 
 		//noinspection SimplifiableIfStatement
 		if (id == R.id.choose) {
+			AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
+			builderSingle.setTitle("Choose Vehicle");
 
+			final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice);
+			
+			String[] columns={TT_Sqlite.pnum,TT_Sqlite.rc};
+			Cursor cursor=db.query(TT_Sqlite.Tname,columns,null,null,null,null,null,null);
+			while(cursor.moveToNext()) {
 
-		}
+				int index1 = cursor.getColumnIndex(TT_Sqlite.pnum);
+				int index2 = cursor.getColumnIndex(TT_Sqlite.rc);
+
+				String plate = cursor.getString(index1);
+				String reg = cursor.getString(index2);
+				arrayAdapter.add(plate);
+			}
+
+			builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialogInterface, int i) {
+					String plate=arrayAdapter.getItem(i);
+					Toast.makeText(getApplicationContext(),plate,Toast.LENGTH_LONG).show();
+				}
+			});
+
+			builderSingle.show();
+
+			}
 
 
 		return super.onOptionsItemSelected(item);
