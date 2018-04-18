@@ -3,6 +3,7 @@ package org.altbeacon.beaconreference;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.DialogInterface;
@@ -14,6 +15,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,6 +39,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 	SharedPreferences sharedPreferences;
 	EditText phnumber,aadhar;
+	Button imageView;
 
 
 	@Override
@@ -81,6 +84,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 		phnumber=(EditText)findViewById(R.id.phnumber);
 		aadhar=(EditText)findViewById(R.id.aadhar);
+		imageView=(Button) findViewById(R.id.add) ;
 
 		Button update,drive;
 		update=(Button)findViewById(R.id.update);
@@ -111,6 +115,58 @@ public class MonitoringActivity extends AppCompatActivity {
 				Toast.makeText(getApplicationContext(),"Details Updated",Toast.LENGTH_LONG).show();
 			}
 		});
+
+		imageView.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+				Dialog dialog=onCreateDialogInput();
+				dialog.show();
+
+//				AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(getApplication());
+//				LayoutInflater inflater ;
+//				View dialogView = LayoutInflater.from(getApplication()).inflate(R.layout.dialogview, null);
+//				//dialogBuilder.setView(dialogView);
+//
+//				EditText numplate = (EditText) dialogView.findViewById(R.id.numplate);
+//				EditText rc = (EditText) dialogView.findViewById(R.id.rc);
+//				numplate.setText("test label");
+//				AlertDialog alertDialog = dialogBuilder.create();
+//				alertDialog.show();
+//				alertDialog.getWindow().setLayout(800,1400);
+//				alertDialog.getWindow().setContentView(dialogView);
+			}
+		});
+	}
+
+	public Dialog onCreateDialogInput() {
+
+
+		View viewInflated = LayoutInflater.from(getApplication()).inflate(R.layout.dialogview,null);
+		final EditText numplate = (EditText) viewInflated.findViewById(R.id.numplate);
+		final EditText rc = (EditText) viewInflated.findViewById(R.id.rc);
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("Enter Vehilce Details");
+		builder.setView(viewInflated);
+
+
+		builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+				Toast.makeText(getApplicationContext(),"Added successfully",Toast.LENGTH_LONG).show();
+			}
+		});
+		builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.cancel();
+			}
+		});
+
+		return builder.create();
+
 
 	}
 
