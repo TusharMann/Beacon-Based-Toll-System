@@ -163,8 +163,15 @@ public class MonitoringActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View view) {
 
-				Dialog dialog=onCreateDialogInput();
-				dialog.show();
+				if(phone.equals("NULL")) {
+					Toast.makeText(getApplicationContext(),"Enter user details first",Toast.LENGTH_LONG).show();
+				}
+
+				else{
+					Dialog dialog=onCreateDialogInput();
+					dialog.show();
+				}
+
 			}
 		});
 	}
