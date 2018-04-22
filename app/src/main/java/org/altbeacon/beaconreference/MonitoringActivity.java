@@ -143,7 +143,7 @@ public class MonitoringActivity extends AppCompatActivity {
 						.addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
 							@Override
 							public void onSuccess(DocumentReference documentReference) {
-								Log.d("aag1", "DocumentSnapshot added with ID: " + documentReference.getId());
+								Log.d("aag1", "User data added with ID: " + documentReference.getId());
 							}
 						})
 						.addOnFailureListener(new OnFailureListener() {
@@ -210,7 +210,7 @@ public class MonitoringActivity extends AppCompatActivity {
 						.addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
 							@Override
 							public void onSuccess(DocumentReference documentReference) {
-								Log.d("aag1", "DocumentSnapshot added with ID: " + documentReference.getId());
+								Log.d("aag1", "Car data added with ID: " + documentReference.getId());
 							}
 						})
 						.addOnFailureListener(new OnFailureListener() {
