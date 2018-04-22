@@ -3,7 +3,7 @@ package org.altbeacon.beaconreference;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.EditText;
+import android.widget.FrameLayout;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
@@ -21,6 +21,9 @@ public class RangingActivity extends AppCompatActivity implements BeaconConsumer
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ranging);
+        FrameLayout frameLayout=(FrameLayout)findViewById(R.id.framelayout);
+        Payment_received_fragment fragment=new Payment_received_fragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,fragment).commit();
 
         beaconManager.bind(this);
     }
@@ -65,8 +68,8 @@ public class RangingActivity extends AppCompatActivity implements BeaconConsumer
     private void logToDisplay(final String line) {
         runOnUiThread(new Runnable() {
             public void run() {
-                EditText editText = (EditText)RangingActivity.this.findViewById(R.id.rangingText);
-                editText.append(line+"\n");
+              //  EditText editText = (EditText)RangingActivity.this.findViewById(R.id.rangingText);
+               // editText.append(line+"\n");
             }
         });
     }

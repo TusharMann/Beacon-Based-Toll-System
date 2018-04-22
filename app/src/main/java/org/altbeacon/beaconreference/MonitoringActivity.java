@@ -113,8 +113,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 		sharedPreferences=getSharedPreferences("Details",MODE_PRIVATE);
 		phone=sharedPreferences.getString("phone","NULL");
-		String aadhar1=sharedPreferences.getString("plate","NULL");
-
+		String aadhar1=sharedPreferences.getString("aadhar","NULL");
 
 		if(phone.equals("NULL") || aadhar1.equals("NULL")) {
 

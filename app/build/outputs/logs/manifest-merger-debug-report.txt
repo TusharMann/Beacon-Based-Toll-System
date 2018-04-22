@@ -14,20 +14,20 @@ MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tushar\.gradle\ca
 MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f681a0050d64dc0e7500fa6054ab39fc\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\cf5d3df720cc012734eec291b13ad926\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\0ce15f7a7805e25bd9affd12681ca657\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\56a81c417ee26b39cb288213a8eddbbb\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\813cbfce06efb312ffe534e9ca5e2501\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\cd93bf14ac813be0db210e0d07fafb06\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\473f99e6ab76ddadbd94af53e95fb092\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\57c139efcd4f243bbc9318a8ecc77c12\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\02cd7d19fec2ccc318d14c39862c0803\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\2ffea9cb57b410b604ee546b66d72811\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\57c846abcb448f7c12cc31a9c47c16ac\AndroidManifest.xml:17:1-24:12
 INJECTED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:1:1-29:12
 INJECTED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:1:1-29:12
@@ -84,10 +84,6 @@ MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tushar\
 MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\cf5d3df720cc012734eec291b13ad926\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\0ce15f7a7805e25bd9affd12681ca657\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\0ce15f7a7805e25bd9affd12681ca657\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\56a81c417ee26b39cb288213a8eddbbb\AndroidManifest.xml:25:5-29:19
@@ -96,8 +92,12 @@ MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradl
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\813cbfce06efb312ffe534e9ca5e2501\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\cd93bf14ac813be0db210e0d07fafb06\AndroidManifest.xml:22:5-20
@@ -108,10 +108,10 @@ MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\57c139efcd4f243bbc9318a8ecc77c12\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\02cd7d19fec2ccc318d14c39862c0803\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\02cd7d19fec2ccc318d14c39862c0803\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:22:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\2ffea9cb57b410b604ee546b66d72811\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\2ffea9cb57b410b604ee546b66d72811\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\57c846abcb448f7c12cc31a9c47c16ac\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\57c846abcb448f7c12cc31a9c47c16ac\AndroidManifest.xml:22:5-20
 	android:label
@@ -170,10 +170,6 @@ MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tushar\
 MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\cf5d3df720cc012734eec291b13ad926\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\0ce15f7a7805e25bd9affd12681ca657\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\0ce15f7a7805e25bd9affd12681ca657\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\56a81c417ee26b39cb288213a8eddbbb\AndroidManifest.xml:21:5-23:63
@@ -182,8 +178,12 @@ MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradl
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\813cbfce06efb312ffe534e9ca5e2501\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:21:5-23:58
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\cd93bf14ac813be0db210e0d07fafb06\AndroidManifest.xml:20:5-44
@@ -194,10 +194,10 @@ MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\57c139efcd4f243bbc9318a8ecc77c12\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\02cd7d19fec2ccc318d14c39862c0803\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-12.0.1.aar\02cd7d19fec2ccc318d14c39862c0803\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\2ffea9cb57b410b604ee546b66d72811\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\2ffea9cb57b410b604ee546b66d72811\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\555e3f8a3acb61eb486d94813c7eb31c\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\57c846abcb448f7c12cc31a9c47c16ac\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\57c846abcb448f7c12cc31a9c47c16ac\AndroidManifest.xml:20:5-44
 INJECTED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml
@@ -296,10 +296,6 @@ ADDED from [org.altbeacon:android-beacon-library:2.13.1] C:\Users\Tushar\.gradle
 		ADDED from [org.altbeacon:android-beacon-library:2.13.1] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.13.1.aar\7c2c3b589630fa3be8b9ddc072e416e3\AndroidManifest.xml:53:17-37
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34788d4298e8fdd88c267aef13a38925\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b5e817be893cf6e973d89da6e6cc0f51\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\56a81c417ee26b39cb288213a8eddbbb\AndroidManifest.xml:26:9-28:38
@@ -308,8 +304,12 @@ MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradl
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\813cbfce06efb312ffe534e9ca5e2501\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d3a2b1582ff34e063b5a0b76f3588633\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\a026379e4e3aad952f6360725a8b6c4a\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fa502a6a97c152c6751d762ff7aee52a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\ee74b1a781977e77c1acaaf2c3af558c\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Tushar\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5069f4ed39ab4fcdd9321e26c6a06001\AndroidManifest.xml:26:9-28:38
 	android:value
