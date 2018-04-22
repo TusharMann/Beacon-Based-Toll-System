@@ -54,6 +54,7 @@ public class MonitoringActivity extends AppCompatActivity {
 	SharedPreferences sharedPreferences;
 	EditText phnumber,aadhar;
 	ImageView imageView;
+	String phone;
 
 	TT_Sqlite sqlite;
 	SQLiteDatabase db;
@@ -111,7 +112,7 @@ public class MonitoringActivity extends AppCompatActivity {
 		drive=(Button)findViewById(R.id.driving);
 
 		sharedPreferences=getSharedPreferences("Details",MODE_PRIVATE);
-		String phone=sharedPreferences.getString("phone","NULL");
+		phone=sharedPreferences.getString("phone","NULL");
 		String aadhar1=sharedPreferences.getString("plate","NULL");
 
 
@@ -190,6 +191,28 @@ public class MonitoringActivity extends AppCompatActivity {
 				cv.put(TT_Sqlite.pnum,num);
 				cv.put(TT_Sqlite.rc,reg);
 				db.insert(TT_Sqlite.Tname,null,cv);
+
+				Map<String, Object> car = new HashMap<>();
+				car.put("Number Plate", num);
+				car.put("Registration Certificate", reg);
+				car.put("User id", phone);
+
+// Add a new document with a generated ID
+				fs.collection("car")
+						.add(car)
+						.addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+							@Override
+							public void onSuccess(DocumentReference documentReference) {
+								Log.d("aag1", "DocumentSnapshot added with ID: " + documentReference.getId());
+							}
+						})
+						.addOnFailureListener(new OnFailureListener() {
+							@Override
+							public void onFailure(@NonNull Exception e) {
+								Log.w("aag1", "Error adding document", e);
+							}
+						});
+
 
 				dialog.dismiss();
 
