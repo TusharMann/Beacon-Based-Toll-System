@@ -15,6 +15,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -28,7 +29,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import org.altbeacon.beacon.BeaconManager;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 
@@ -48,6 +57,7 @@ public class MonitoringActivity extends AppCompatActivity {
 
 	TT_Sqlite sqlite;
 	SQLiteDatabase db;
+	FirebaseFirestore fs;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +66,7 @@ public class MonitoringActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_monitoring);
 		sqlite=new TT_Sqlite(this,1);
 		db=sqlite.getWritableDatabase();
+		fs = FirebaseFirestore.getInstance();
 		//verifyBluetooth();
         logToDisplay("Application just launched");
 
@@ -120,6 +131,28 @@ public class MonitoringActivity extends AppCompatActivity {
 				editor.putString("phone", phnumber.getText().toString());
 				editor.putString("plate", aadhar.getText().toString());
 				editor.commit();
+
+				Map<String, Object> user = new HashMap<>();
+				user.put("Phone Number", phnumber.getText().toString());
+				user.put("Aadhar Number", aadhar.getText().toString());
+
+// Add a new document with a generated ID
+				fs.collection("user")
+						.add(user)
+						.addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+							@Override
+							public void onSuccess(DocumentReference documentReference) {
+								Log.d("aag1", "DocumentSnapshot added with ID: " + documentReference.getId());
+							}
+						})
+						.addOnFailureListener(new OnFailureListener() {
+							@Override
+							public void onFailure(@NonNull Exception e) {
+								Log.w("aag1", "Error adding document", e);
+							}
+						});
+
+
 
 				Toast.makeText(getApplicationContext(),"Details Updated",Toast.LENGTH_LONG).show();
 			}
@@ -308,7 +341,7 @@ public class MonitoringActivity extends AppCompatActivity {
 			builderSingle.setTitle("Choose Vehicle");
 
 			final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice);
-			
+
 			String[] columns={TT_Sqlite.pnum,TT_Sqlite.rc};
 			Cursor cursor=db.query(TT_Sqlite.Tname,columns,null,null,null,null,null,null);
 			while(cursor.moveToNext()) {
