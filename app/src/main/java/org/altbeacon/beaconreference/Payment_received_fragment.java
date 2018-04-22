@@ -24,7 +24,7 @@ public class Payment_received_fragment extends Fragment {
         String phone=sharedPreferences.getString("phone","NULL");
         String plate=sharedPreferences.getString("numplate","NULL");
 
-        String result="Payment for \nCar number "+plate+" received from \nPhone <b>"+phone+"</b>";
+        String result="Payment for \nCar number "+plate+" received from \nPhone "+phone;
         textView.setText(result);
 
 

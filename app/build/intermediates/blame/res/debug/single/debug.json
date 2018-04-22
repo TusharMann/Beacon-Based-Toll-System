@@ -312,6 +312,10 @@
         "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\34788d4298e8fdd88c267aef13a38925\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_booth.png.flat",
+        "source": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\src\\main\\res\\drawable-xhdpi\\booth.png"
+    },
+    {
         "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\34788d4298e8fdd88c267aef13a38925\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
@@ -554,6 +558,10 @@
     {
         "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\34788d4298e8fdd88c267aef13a38925\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_waiting.xml.flat",
+        "source": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\src\\main\\res\\layout\\fragment_waiting.xml"
     },
     {
         "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -806,6 +814,10 @@
     {
         "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\5069f4ed39ab4fcdd9321e26c6a06001\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_wifi.png.flat",
+        "source": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\src\\main\\res\\drawable-xhdpi\\wifi.png"
     },
     {
         "merged": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",

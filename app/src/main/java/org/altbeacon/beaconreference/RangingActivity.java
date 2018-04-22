@@ -3,6 +3,7 @@ package org.altbeacon.beaconreference;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.FrameLayout;
 
 import org.altbeacon.beacon.Beacon;
@@ -16,14 +17,15 @@ import java.util.Collection;
 public class RangingActivity extends AppCompatActivity implements BeaconConsumer {
     protected static final String TAG = "RangingActivity";
     private BeaconManager beaconManager = BeaconManager.getInstanceForApplication(this);
+    FrameLayout frameLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ranging);
-        FrameLayout frameLayout=(FrameLayout)findViewById(R.id.framelayout);
-        Payment_received_fragment fragment=new Payment_received_fragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,fragment).commit();
+        frameLayout=(FrameLayout)findViewById(R.id.framelayout);
+        Waiting_Fragment fragment1=new Waiting_Fragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,fragment1).commit();
 
         beaconManager.bind(this);
     }
@@ -54,7 +56,18 @@ public class RangingActivity extends AppCompatActivity implements BeaconConsumer
               if (beacons.size() > 0) {
                  //EditText editText = (EditText)RangingActivity.this.findViewById(R.id.rangingText);
                  Beacon firstBeacon = beacons.iterator().next();
-                 logToDisplay("The first beacon " + firstBeacon.toString() + " is about " + firstBeacon.getDistance() + " meters away.");
+                // logToDisplay("The first beacon " + firstBeacon.toString() + " is about " + firstBeacon.getDistance() + " meters away.");
+                  Log.e(TAG,firstBeacon.toString());
+                  String x =firstBeacon.getId1().toString();
+                  Double d=firstBeacon.getDistance();
+                  // x=x.substring(24);
+                  Log.e("Ranging","The first beacon " + firstBeacon.getId1().toString() + " is about " + firstBeacon.getDistance() + " meters away.");
+
+                  if(x.equals("00112233-4455-6677-8899-aabbccddeeff")) {
+                      Payment_received_fragment fragment=new Payment_received_fragment();
+                      getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,fragment).commit();
+                  }
+
               }
            }
 

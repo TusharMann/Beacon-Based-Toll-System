@@ -117,7 +117,7 @@ MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tushar\.g
 	android:label
 		ADDED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:11:9-45
+		ADDED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:11:9-39
 	android:allowBackup
 		ADDED from G:\Notes\Automatic Toll System\Beacons\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
