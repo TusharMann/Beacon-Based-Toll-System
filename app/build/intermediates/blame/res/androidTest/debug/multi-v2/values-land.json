@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Notes\\Automatic Toll System\\Camera\\Beacon-Based-Toll-System-91fef2f34a2c636f14d033c17c4ed70ca9f58e29\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Tushar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\34788d4298e8fdd88c267aef13a38925\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "G:\\Notes\\Automatic Toll System\\Beacons\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
