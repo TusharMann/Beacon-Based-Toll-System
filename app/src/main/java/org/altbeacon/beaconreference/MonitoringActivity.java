@@ -54,7 +54,7 @@ public class MonitoringActivity extends AppCompatActivity {
 	SharedPreferences sharedPreferences;
 	EditText phnumber,aadhar;
 	ImageView imageView;
-	String phone;
+	String phone,plate;
 
 	TT_Sqlite sqlite;
 	SQLiteDatabase db;
@@ -130,7 +130,7 @@ public class MonitoringActivity extends AppCompatActivity {
 			public void onClick(View view) {
 				SharedPreferences.Editor editor = sharedPreferences.edit();
 				editor.putString("phone", phnumber.getText().toString());
-				editor.putString("plate", aadhar.getText().toString());
+				editor.putString("aadhar", aadhar.getText().toString());
 				editor.commit();
 
 				Map<String, Object> user = new HashMap<>();
@@ -162,7 +162,7 @@ public class MonitoringActivity extends AppCompatActivity {
 		imageView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-
+				phone=sharedPreferences.getString("phone","NULL");
 				if(phone.equals("NULL")) {
 					Toast.makeText(getApplicationContext(),"Enter user details first",Toast.LENGTH_LONG).show();
 				}
@@ -193,6 +193,11 @@ public class MonitoringActivity extends AppCompatActivity {
 			public void onClick(DialogInterface dialog, int which) {
 				String num=numplate.getText().toString();
 				String reg=rc.getText().toString();
+
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor.putString("numplate", num);
+				editor.commit();
+
 
 				ContentValues cv=new ContentValues();
 				cv.put(TT_Sqlite.pnum,num);
@@ -289,8 +294,15 @@ public class MonitoringActivity extends AppCompatActivity {
 	}
 
 	public void onRangingClicked(View view) {
-		Intent myIntent = new Intent(this, RangingActivity.class);
-		this.startActivity(myIntent);
+		phone=sharedPreferences.getString("phone","NULL");
+		plate=sharedPreferences.getString("numplate","NULL");
+		if(phone.equals("NULL") || plate.equals("NULL") ) {
+			Toast.makeText(getApplicationContext(),"Please Enter user and car details",Toast.LENGTH_LONG).show();
+		}
+		else {
+			Intent myIntent = new Intent(this, RangingActivity.class);
+			this.startActivity(myIntent);
+		}
 	}
 
     @Override
@@ -388,6 +400,10 @@ public class MonitoringActivity extends AppCompatActivity {
 				@Override
 				public void onClick(DialogInterface dialogInterface, int i) {
 					String plate=arrayAdapter.getItem(i);
+					SharedPreferences.Editor editor = sharedPreferences.edit();
+					editor.putString("numplate", plate);
+					editor.commit();
+
 					Toast.makeText(getApplicationContext(),plate,Toast.LENGTH_LONG).show();
 				}
 			});
