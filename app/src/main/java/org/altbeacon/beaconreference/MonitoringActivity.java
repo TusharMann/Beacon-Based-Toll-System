@@ -107,9 +107,10 @@ public class MonitoringActivity extends AppCompatActivity {
 		aadhar=(EditText)findViewById(R.id.aadhar);
 		imageView=(ImageView) findViewById(R.id.add) ;
 
-		Button update,drive;
+		Button update,drive,verify;
 		update=(Button)findViewById(R.id.update);
 		drive=(Button)findViewById(R.id.driving);
+		verify=(Button)findViewById(R.id.verify);
 
 		sharedPreferences=getSharedPreferences("Details",MODE_PRIVATE);
 		phone=sharedPreferences.getString("phone","NULL");
@@ -302,6 +303,11 @@ public class MonitoringActivity extends AppCompatActivity {
 			Intent myIntent = new Intent(this, RangingActivity.class);
 			this.startActivity(myIntent);
 		}
+	}
+
+	public void verifyClicked(View view) {
+		Intent myIntent = new Intent(this, MainActivity.class);
+		this.startActivity(myIntent);
 	}
 
     @Override

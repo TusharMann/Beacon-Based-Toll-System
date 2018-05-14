@@ -112,7 +112,8 @@
             android:textSize="20sp"
             android:id="@+id/verify"
             android:text="Verify Aadhar"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:onClick="verifyClicked"/>
 
         <ImageView
             android:layout_width="0dp"
