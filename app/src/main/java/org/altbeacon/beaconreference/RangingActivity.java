@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.FrameLayout;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
 import org.altbeacon.beacon.BeaconManager;
@@ -18,6 +20,8 @@ public class RangingActivity extends AppCompatActivity implements BeaconConsumer
     protected static final String TAG = "RangingActivity";
     private BeaconManager beaconManager = BeaconManager.getInstanceForApplication(this);
     FrameLayout frameLayout;
+    FirebaseFirestore db;
+    int k=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,16 +58,15 @@ public class RangingActivity extends AppCompatActivity implements BeaconConsumer
            @Override
            public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
               if (beacons.size() > 0) {
-                 //EditText editText = (EditText)RangingActivity.this.findViewById(R.id.rangingText);
                  Beacon firstBeacon = beacons.iterator().next();
-                // logToDisplay("The first beacon " + firstBeacon.toString() + " is about " + firstBeacon.getDistance() + " meters away.");
                   Log.e(TAG,firstBeacon.toString());
                   String x =firstBeacon.getId1().toString();
                   Double d=firstBeacon.getDistance();
-                  // x=x.substring(24);
+
                   Log.e("Ranging","The first beacon " + firstBeacon.getId1().toString() + " is about " + firstBeacon.getDistance() + " meters away.");
 
-                  if(x.equals("00112233-4455-6677-8899-aabbccddeeff")) {
+                  if(x.equals("00112233-4455-6677-8899-aabbccddeeff") && k!=1) {
+                      k=1;
                       Payment_received_fragment fragment=new Payment_received_fragment();
                       getSupportFragmentManager().beginTransaction().replace(R.id.framelayout,fragment).commit();
                   }

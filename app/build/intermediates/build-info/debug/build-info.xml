@@ -5,37 +5,25 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1524424141509"
+    timestamp="1524639805845"
     token="9077579767194972157"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1648" />
+        duration="1929" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="98" />
     <task
         name="verifier"
-        duration="99" />
+        duration="46" />
 
-    <artifact
-        location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
     <artifact
         location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
@@ -45,8 +33,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1524423257753"
+        timestamp="1524639703320"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="G:\Notes\Automatic Toll System\Beacons\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -55,9 +46,6 @@
             type="SPLIT" />
         <artifact
             location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -78,29 +66,17 @@
             location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1524424141509"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1524639805845"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
         <artifact
             location="G:\Notes\Automatic Toll System\Beacons\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
